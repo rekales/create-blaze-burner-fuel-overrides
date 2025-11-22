@@ -25,7 +25,7 @@ public class BlazeBurnerFuelDataLoader extends SimpleJsonResourceReloadListener 
     public static final BlazeBurnerFuelDataLoader INSTANCE = new BlazeBurnerFuelDataLoader();
 
     public BlazeBurnerFuelDataLoader() {
-        super(GSON, "blaze_burner_fuel");
+        super(GSON, "blaze_burner_fuel_override");
     }
 
     @Override

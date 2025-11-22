@@ -93,9 +93,8 @@ dependencies {
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.1"))
     implementation("io.github.llamalad7:mixinextras-forge:0.4.1")
 
-    modCompileOnly("curse.maven:copycats-968398:6650089")
+    modRuntimeOnly("curse.maven:create-liquid-fuel-840734:5217310")
 
-//    modRuntimeOnly("curse.maven:copycats-968398:6650089")
     modRuntimeOnly("curse.maven:jei-238222:7229087")
 
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
